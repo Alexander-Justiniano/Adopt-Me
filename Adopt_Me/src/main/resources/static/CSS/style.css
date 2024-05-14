@@ -1,0 +1,179 @@
+@charset "ISO-8859-1";
+
+body{
+    font-family: sans-serif;
+    width: auto;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+}
+
+label{
+	font-size: 1.2rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+th{
+	font-size: 1.5rem;
+	text-align: center;
+	border: solid 2px black;
+	padding: 15px;
+}
+
+td{
+    border: 2px solid black;
+    text-align: left;
+    padding: 15px;
+}
+
+table input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px;
+}
+
+.submit-btn{
+    box-shadow: 3px 3px black;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: solid 2px black;
+    background-color: #9fc5f8;
+}
+
+.top-left{
+	padding: 60px 0px 0px 60px; 
+}
+
+.center-body{
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.display-table{
+	margin: 0;
+	width: 100%;
+}
+
+.new-game-btn{
+	margin-top: 40px;
+	width: 100%;
+	box-shadow: 3px 3px black;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: solid 2px black;
+    background-color: #9fc5f8;
+}
+
+
+.link-button {
+    background: none;
+    color: blue;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.link-button:hover,
+.link-button:focus {
+    text-decoration: none;
+}
+
+.centered-title{
+	text-align: center;
+	margin: -80px 0px 40px 0px;
+}
+
+.bottom-border{
+	border-bottom: solid black 2px;
+	margin-bottom: 50px;
+}
+
+.space-between{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+}
+
+.new-pet-btn{
+	margin-top: 40px;
+	width: 100%;
+	box-shadow: 3px 3px black;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: solid 2px black;
+    background-color: #9fc5f8;
+}
+
+.purple{
+	color: #D604F9;
+}
+
+.sky-blue{
+	color: #9fc5f8;
+}
+
+.large-text{
+	font-size: 1.5rem;
+}
+
+#header{
+	width: 1000px;
+
+}
+
+.center-form{
+	width: 1000px;
+	padding: 150px;
+	margin-left: 300px;
+}
+
+.form-field{
+	
+    font-size: 1.5rem;
+    margin: 15px 0px;
+}
+
+.element-margin{
+	margin-left: 365px;
+}
+
+.details-body{
+	display: flex;
+	width: 1000px;
+	justify-content: space-between;
+}
+
+.detail{
+	display: flex;
+}
+
+.options{
+	display: flex;
+	margin: 50px;
+}
+
+.option-elmt{
+	margin: 20px;
+	font-size: 1.5rem;
+}
+
+
+
